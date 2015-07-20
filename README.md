@@ -14,7 +14,7 @@ languages: python
 class MainHandler(webapp2.RequestHandler):
   def get(self):
     message = 'Hello, World!' - 8
-    self.write(message)
+    self.response.write(message)
 ```
 If we try to run this code we will get a blank page, now what?
 
@@ -37,10 +37,10 @@ TypeError: cannot concatenate 'str' and 'int' objects</kbd>
 Copy and paste the following into main.py. It contains a couple errors! Use the console to find and fix the errors.
 
 ```python
-if True:
+if true:
   self.response.write(
     'The truth will set you free.')
-else:
+else
   self.response.write(
     'How did I get here?')
 ```
