@@ -61,6 +61,7 @@ def TalkLikeAJedi(sentence):
 
   retunn sentence
 
+#put inside handler
 sentence = 'Hello, world!'
 self.response.write(TalkLikeAJEdi(sentence))
 ```
@@ -89,6 +90,7 @@ def IsPrime(n):
 
   return True
 
+#put in handler
 n = 100
 if IsPrime(n):
   self.response.write('%d is prime' % n)
