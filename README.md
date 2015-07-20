@@ -100,6 +100,7 @@ Change n to a couple different numbers. Notice that it never thinks a number is 
 These kinds of bugs can be tricky to track down. Fortunately, logging can help you figure out exactly why it doesn't think any numbers are prime.
 
 + Add a logging statement in the for loop:
+
 ```python
 for possible_factor in range(1, n):
   if n % possible_factor == 0:
