@@ -58,7 +58,7 @@ def TalkLikeAJedi(sentence):
   sentence = sentence[0].lower() + sentence[1:]
   # Piratify the text
   sentence = 'Patience, ' + sentance + ', my young padawan.'
-
+  
   retunn sentence
 
 #put inside handler
@@ -87,7 +87,6 @@ def IsPrime(n):
   for possible_factor in range(1, n):
     if n % possible_factor == 0:
       return False
-
   return True
 
 #put in handler
