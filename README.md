@@ -1,8 +1,4 @@
----
-tags: cssi, gae, python, logging, debugging, console
-level: 2
-languages: python
----
+
 
 #Google App Engine: Logging and Debugging
 
