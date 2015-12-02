@@ -109,3 +109,5 @@ Now try reloading the page with a different number. Check the logs: do you see t
 #Conclusion
 
 Patience young grasshopper. Debugging can be frustrating but you have tools that can help you fix errors in your code. Read your error messages in the console to find your next step. Use the PEP protocol. Ask for help!
+
+<a href='https://learn.co/lessons/cssi-6.3b-ae-debugging-logging' data-visibility='hidden'>View this lesson on Learn.co</a>
